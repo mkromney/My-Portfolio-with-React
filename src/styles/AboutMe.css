@@ -1,0 +1,21 @@
+/* AboutMe.css */
+
+.aboutMeContainer {
+ display: flex;
+ justify-content: space-around; /* Adjust as needed */
+}
+
+.aboutMeIntro {
+ text-align: center;
+ padding: 20px;
+}
+
+.aboutSection {
+ width: 95%; /* Adjust as needed */
+ padding: 5px;
+ 
+}
+
+.aboutSection h2 {
+ margin-bottom: 10px;
+}
