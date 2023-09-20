@@ -19,13 +19,17 @@ function App() {
     
       /* Wrap page elements in Router component to keep track of location state */
       <Router>
-        <div className="flex-column justify-flex-start min-100-vh">
+        <div className="flex-column justify-flex-start min-100-vh bg-primary-black">
           <Header />
           <Navbar />
           <div className="container">
             <Routes>
               {/* Define routes using the Route component to render different page components at different paths */}
               {/* Define a default route that will render the Home component */}
+              <Route 
+                path="/" 
+                element={<AboutMe />} 
+              />
               <Route 
                 path="/aboutme" 
                 element={<AboutMe />} 

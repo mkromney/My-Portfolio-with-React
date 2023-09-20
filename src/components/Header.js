@@ -1,30 +1,36 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Header.css';
-
-// By importing the Header.css file, it is added to the DOM whenever this component loads
-
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
 
 const styles = {
   headerStyle: {
     background: 'black',
+    display: 'flex',
+    justifyContent: 'flex-start',
+    margin: '0',
+    position: 'relative',
+    zIndex: '5',
+    
   },
   headingStyle: {
-    
-    fontSize: '90px',
+    fontSize: '50px',
+    marginBottom: '50px',
+  },
+  paragraphStyle: {
+   
+    fontSize: '30px', // Adjust the font size for the paragraph
+    marginTop: '150px', // Add some top margin for separation
   },
 };
 
-// We use JSX curly braces to evaluate the style object
-
 function Header() {
   return (
-    <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Maridon Romney</h1>
-    </header>
+    <div >
+      <header style={styles.headerStyle} className="header">
+        <h1 style={styles.headingStyle}>Maridon Romney
+        </h1>       
+      </header>
+    </div>
   );
 }
 
