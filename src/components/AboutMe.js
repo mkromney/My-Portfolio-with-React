@@ -1,7 +1,13 @@
 // Your about me page.
 import React from "react";
 import "../styles/AboutMe.css"; // Import CSS for styling
-import MaridonPhoto from "../styles/images/maridon-romney-2023.JPG"
+// import MaridonPhoto from "../styles/images/maridon-romney-2023.JPG"
+
+const aboutContainer = {
+  height: '90vw',
+  marginTop: '20px',
+  marginBottom: '20px',  
+};
 
 const pStyles = {
   width: '90vw',
@@ -14,12 +20,14 @@ const pStyles = {
 const AboutMe = () => {
  return (
    
-   <div class='text-left' className="aboutMeContainer">
+   <div style={aboutContainer} class='text-left' className="aboutMeContainer">
+
      <box>
      <section>
      <div class='text-left' className="aboutMeIntro">
+     <h1 class="text-center" >About <span class="text-warning">Me</span></h1>
       <a href='https://mmaridonn.com'>
-        <img src={MaridonPhoto} alt="Maridon Romney" width="500px"></img>
+        {/* <img src={MaridonPhoto} alt="Maridon Romney" width="500px"></img>  */}
       </a>
        <p style={pStyles}>Inspired by a lifetime passion for language learning and an early fascination with artificial intelligence, I recently earned an advanced degree in Linguistics, Minimalism Syntax Framework - the study of the underlying structures within everyday utterances with a focus on natural language processing in Python. The intentional combination of these disciplines brings unique perspective to deep learning algorithms and the question of Language in the human brain with the aim of solving some of our toughest software engineering and AI development challenges.</p>
      </div>

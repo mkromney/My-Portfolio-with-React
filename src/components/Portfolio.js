@@ -14,19 +14,18 @@ const cardStyle = {
   display: 'flex',
   
 };
-
-const portfolioContainerStyle = {
-  width: '100vw', // Fill the width of the viewport
-  height: '100vh', // Fill the height of the viewport
-  display: 'flex',
-};
+const portfolioContainer = {
+    height: '90vw',
+    marginTop: '20px',
+    marginBottom: '20px',  
+  };
 
 const Portfolio = () => {
   return (
-    <div style={portfolioContainerStyle} className="d-flex container-fluid bg-dark text-white py-4">
-    <div className="row ">
+    <div style={portfolioContainer} className="d-flex container bg-white text-black p-2">
+    <div className="row">
             <div class="col">
-                <h1 >My <span class="text-warning">Portfolio</span></h1>
+                <h1 class="text-center" >My <span class="text-warning">Portfolio</span></h1>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 text-dark">

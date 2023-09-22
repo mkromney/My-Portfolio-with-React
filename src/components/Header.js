@@ -14,7 +14,7 @@ const styles = {
   },
   headingStyle: {
     fontSize: '50px',
-    marginBottom: '50px',
+    marginBottom: '100px',
   },
   paragraphStyle: {
    
@@ -27,7 +27,7 @@ function Header() {
   return (
     <div >
       <header style={styles.headerStyle} className="header">
-        <h1 style={styles.headingStyle}>Maridon Romney
+        <h1 style={styles.headingStyle}>Maridon Romney<span class="fs-4 text-warning font-weight-light">Junior Developer</span>
         </h1>       
       </header>
     </div>

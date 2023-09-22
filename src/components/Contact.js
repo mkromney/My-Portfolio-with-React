@@ -1,23 +1,24 @@
 import React from 'react';
 
+const contactContainer = {
+    height: '90vw',
+    marginTop: '20px',
+    marginBottom: '20px',  
+  };
+
 const Contact = () => {
   return (
     <>
-      <section>
-        <h1>Contact</h1>
-      </section>
-      <section>
+      <section style={contactContainer} className="text-center">
+        <h1>Get <span className="text-warning">In Touch</span></h1>
+        <section className="p-3 d-flex justify-content-center">
         <div>
-          <a href="mailto:mkromney@gmail.com">
-            <h5>Email Me</h5>
-          </a>
-        </div>
-        <div>
-          <a href="https://github.com/mkromney">
-            <h5>Visit my GitHub</h5>
-          </a>
+          <a href="mkromney@gmail.com" target="_blank" className="btn btn-warning mx-2" rel="noreferrer">Email Me</a>
+          <a href="https://github.com/mkromney" target="_blank" className="btn btn-dark mx-2" rel="noreferrer">View my GitHub</a>
         </div>
       </section>
+      </section>
+     
     </>
   );
 };
