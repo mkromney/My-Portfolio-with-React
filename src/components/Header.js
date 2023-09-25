@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/Header.css';
+import '../styles/Styles.css';
 
+// Styles for the page: //
 const styles = {
   headerStyle: {
     background: 'black',
@@ -18,11 +19,12 @@ const styles = {
   },
   paragraphStyle: {
    
-    fontSize: '30px', // Adjust the font size for the paragraph
-    marginTop: '150px', // Add some top margin for separation
+    fontSize: '30px', 
+    marginTop: '150px',
   },
 };
 
+// Returns the header component: //
 function Header() {
   return (
     <div >

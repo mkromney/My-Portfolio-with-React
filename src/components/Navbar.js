@@ -1,21 +1,24 @@
 import React from 'react';
-import '../styles/Navbar.css';
+import '../styles/Styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
+// Styles for the navbar: //
 const Navbar = () => {
   const linkStyle = {
-    fontSize: '130%', // Increase font size by 30%
-    marginRight: '10px', // Add some spacing between links
-    marginBottom: '20px', // Add 20px space below the links
+    fontSize: '130%', 
+    marginRight: '10px', 
+    marginBottom: '20px', 
     padding: '5px 0',
+    maxWidth: '480px',
   };
 
   const navbarStyle = {
     display: 'flex',
-    justifyContent: 'center', // Center the content horizontally
-    padding: '0px 0',
+    justifyContent: 'center',
+    
   };
 
+  // Returns navbar component: //
   return (
     <nav style={navbarStyle} className="navbar">
       <a href="/aboutme" style={linkStyle}>About <span class="text-warning" > Me</span></a>

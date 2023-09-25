@@ -2,8 +2,9 @@ import React from "react";
 import linkedinlogo from "../styles/images/linkedin.png";
 import gitlogo from "../styles/images/github.png";
 import discordlogo from "../styles/images/discord.png";
-import '../styles/Footer.css';
+import '../styles/Styles.css';
 
+// Styles for the footer: //
 const footerStyles = {
   position: 'fixed',
   bottom: 0,
@@ -17,6 +18,7 @@ const footerStyles = {
   
 };
 
+// Returns the footer component: //
 const Footer = () => {
   return (
     <>
