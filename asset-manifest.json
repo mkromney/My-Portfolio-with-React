@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c78dfe37.css",
-    "main.js": "/static/js/main.a86a3e92.js",
-    "static/media/maridon-romney-2023.JPG": "/static/media/maridon-romney-2023.df66eb2bec1bb645a11c.JPG",
-    "static/media/Maridon-Romney-Resumé-2023.pdf": "/static/media/Maridon-Romney-Resumé-2023.0d09b5b71cd1eeccd918.pdf",
-    "static/media/MySQL-Thumbnail-maridon.png": "/static/media/MySQL-Thumbnail-maridon.71385d4337f54ec32a00.png",
-    "static/media/MyResume.PNG": "/static/media/MyResume.8ee8c85da7dd5d75872e.PNG",
-    "static/media/Interactive-Day-Calendar.jpg": "/static/media/Interactive-Day-Calendar.6a734316a6c807c6fa4f.jpg",
-    "static/media/Weather-Forecaster.png": "/static/media/Weather-Forecaster.a9b5993c911a439c25b8.png",
-    "static/media/Readme-Generator.png": "/static/media/Readme-Generator.b2140bd5c84db49deaf3.png",
-    "static/media/Password-Generator.png": "/static/media/Password-Generator.76cd75ab7839ac2fe2cd.png",
-    "static/media/NoteTaker-Demo-01.png": "/static/media/NoteTaker-Demo-01.d1f4035fedd90601ce45.png",
-    "index.html": "/index.html",
-    "main.c78dfe37.css.map": "/static/css/main.c78dfe37.css.map",
-    "main.a86a3e92.js.map": "/static/js/main.a86a3e92.js.map"
+    "main.css": "/My-Portfolio-with-React/static/css/main.c78dfe37.css",
+    "main.js": "/My-Portfolio-with-React/static/js/main.538f236a.js",
+    "static/media/maridon-romney-2023.JPG": "/My-Portfolio-with-React/static/media/maridon-romney-2023.df66eb2bec1bb645a11c.JPG",
+    "static/media/Maridon-Romney-Resumé-2023.pdf": "/My-Portfolio-with-React/static/media/Maridon-Romney-Resumé-2023.0d09b5b71cd1eeccd918.pdf",
+    "static/media/MySQL-Thumbnail-maridon.png": "/My-Portfolio-with-React/static/media/MySQL-Thumbnail-maridon.71385d4337f54ec32a00.png",
+    "static/media/MyResume.PNG": "/My-Portfolio-with-React/static/media/MyResume.8ee8c85da7dd5d75872e.PNG",
+    "static/media/Interactive-Day-Calendar.jpg": "/My-Portfolio-with-React/static/media/Interactive-Day-Calendar.6a734316a6c807c6fa4f.jpg",
+    "static/media/Weather-Forecaster.png": "/My-Portfolio-with-React/static/media/Weather-Forecaster.a9b5993c911a439c25b8.png",
+    "static/media/Readme-Generator.png": "/My-Portfolio-with-React/static/media/Readme-Generator.b2140bd5c84db49deaf3.png",
+    "static/media/Password-Generator.png": "/My-Portfolio-with-React/static/media/Password-Generator.76cd75ab7839ac2fe2cd.png",
+    "static/media/NoteTaker-Demo-01.png": "/My-Portfolio-with-React/static/media/NoteTaker-Demo-01.d1f4035fedd90601ce45.png",
+    "index.html": "/My-Portfolio-with-React/index.html",
+    "main.c78dfe37.css.map": "/My-Portfolio-with-React/static/css/main.c78dfe37.css.map",
+    "main.538f236a.js.map": "/My-Portfolio-with-React/static/js/main.538f236a.js.map"
   },
   "entrypoints": [
     "static/css/main.c78dfe37.css",
-    "static/js/main.a86a3e92.js"
+    "static/js/main.538f236a.js"
   ]
 }
