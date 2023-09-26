@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "homepage": "https://mkromney.github.io/My-Portfolio-with-React",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "bootstrap": "^5.3.2",
     "build": "^0.1.4",
